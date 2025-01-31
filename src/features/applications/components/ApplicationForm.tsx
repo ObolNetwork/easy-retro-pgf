@@ -134,7 +134,7 @@ export function ApplicationForm({ address }: { address: Address }) {
                 label="Website"
                 required
               >
-                <Input placeholder="www." />
+                <Input placeholder="https://" />
               </FormControl>
 
               <FormControl
@@ -188,7 +188,7 @@ export function ApplicationForm({ address }: { address: Address }) {
                     name={`application.impactMetrics.${i}.url`}
                     required
                   >
-                    <Input placeholder="www." />
+                    <Input placeholder="https://" />
                   </FormControl>
                   <FormControl
                     name={`application.impactMetrics.${i}.number`}
