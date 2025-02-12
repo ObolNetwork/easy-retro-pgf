@@ -26,9 +26,7 @@ export const BallotConfirmation = ({ votes }: { votes: Vote[] }) => {
                 Your vote has been received 🥳
               </h3>
               <p className="mb-10 text-gray-700">
-                Thank you for participating in RetroPGF 3. Please help us
-                improve the process by providing feedback on your experience as
-                a badgeholder!
+                Thank you for participating in RAF1. Please help us improve the process by providing feedback on your experience.
               </p>
               <Button
                 variant="primary"
