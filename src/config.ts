@@ -5,7 +5,7 @@ export const metadata = {
   title: "Obol RAF",
   description: "Open-source Obol Retroactive Funding platform",
   url: "https://raf.obol.org",
-  image: "/api/og",
+  image: "/ObolOG.png",
 };
 
 export const config = {
