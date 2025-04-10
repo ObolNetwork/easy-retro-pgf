@@ -13,7 +13,7 @@ export const Banner = () => {
             font-sans text-sm md:text-base font-medium
           "
         >
-          The first OBOL RAF has already concluded, please stay tuned for the next round{" "}
+          The first OBOL RAF has already concluded, please stay tuned for the next round. {" "}
           <a
             href="https://blog.obol.org/raf1-results/"
             target="_blank"
