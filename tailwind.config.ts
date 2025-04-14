@@ -1,5 +1,4 @@
 import { type Config } from "tailwindcss";
-
 import colors from "tailwindcss/colors";
 import theme from "tailwindcss/defaultTheme";
 
@@ -9,7 +8,7 @@ export default {
     extend: {
       colors: {
         primary: {
-          ...colors,  
+          ...colors,
           100: "#D5FAEE",
           500: "#47e9bb",
           600: "#2fe4ab",
@@ -17,16 +16,16 @@ export default {
           800: "#0B1F1B",
         },
         secondary: {
-          ...colors,  
+          ...colors,
           100: "#e1e9eb",
           500: "#243d42",
-          600: "#182d32",      
+          600: "#182d32",
         },
         gray: colors.stone,
       },
       fontFamily: {
-        sans: ["var(--font-inter)", ...theme.fontFamily.sans],
-        heading: ["var(--font-heading)", ...theme.fontFamily.sans],
+        sans: ["DM Sans", ...theme.fontFamily.sans], 
+        heading: ["DM Sans", ...theme.fontFamily.sans],
       },
     },
   },
